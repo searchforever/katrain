@@ -75,7 +75,8 @@ class Lang(Observable):
                 print(f"Failed callback on language change: {e}", file=sys.stderr)
 
 
-DEFAULT_LANGUAGE = "en"
+#DEFAULT_LANGUAGE = "en"
+DEFAULT_LANGUAGE = "cn"
 i18n = Lang(DEFAULT_LANGUAGE)
 
 
